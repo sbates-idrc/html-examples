@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Landmarks</title>
+</head>
+
+<body>
+
+<h1>Landmarks</h1>
+
+<!--
+Example 1
+role="region"
+aria-label: no
+heading: no
+-->
+<div role="region">
+    One
+</div>
+
+<!--
+Example 2
+role="region"
+aria-label: yes
+heading: no
+-->
+<div role="region" aria-label="Two">
+    <p>Content A</p>
+    <p>Content B</p>
+</div>
+
+<!--
+Example 3
+role="region"
+aria-label: no
+heading: yes
+-->
+<div role="region">
+    <h2>Three</h2>
+    <p>Content A</p>
+    <p>Content B</p>
+</div>
+
+<!--
+Example 4
+role="region"
+aria-label: yes
+heading: yes
+-->
+<div role="region" aria-label="Four X">
+    <h2>Four Y</h2>
+    <p>Content A</p>
+    <p>Content B</p>
+</div>
+
+<!--
+Example 5
+role="region"
+aria-labelledby with heading
+-->
+<div role="region" aria-labelledby="example-5">
+    <h2 id="example-5">Five</h2>
+    <p>Content A</p>
+    <p>Content B</p>
+</div>
+
+</body>
+
+</html>
